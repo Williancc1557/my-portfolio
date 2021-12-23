@@ -9,8 +9,8 @@
 
 .footer-itens-contain {
     width: 50%;
-    height: 35%;
-    padding: 10px;
+    height: 6rem;
+    padding: 6px;
     margin: auto;
 }
 
@@ -46,6 +46,36 @@
 .footer-itens-contain ul li a {
     color: white;
 }
+
+
+
+/* subitens contain */
+
+.footer-subitens-contain {
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 60%;
+    width: 100%;
+    margin: auto;
+}
+
+.footer-subitens-contain h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0.4rem;
+}
+
+.footer-subitens-contain ul {
+    list-style-type: none;
+}
+
+.footer-subitens-contain li {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+
 
 
 
