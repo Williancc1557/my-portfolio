@@ -3,8 +3,9 @@
     background: #2c2c2c;
     top: 100%;
     width: 100%;
-    height: 40vh;
+    padding-bottom: 20px;
     transition: 0.4s;
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.4);
 }
 
 .footer-itens-contain {
@@ -16,6 +17,7 @@
 
 .footer-itens-contain h1 {
     color: white;
+    cursor: default;
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 10px;
@@ -26,7 +28,6 @@
 
 .footer-itens-contain ul {
     list-style-type: none;
-    color: white;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -38,7 +39,8 @@
     font-size: 2.2rem;
 }
 
-.footer-itens-contain ul li:hover {
+.footer-itens-contain ul li a:hover {
+    color: aqua;
     transition: 0.1s;
     font-size: 2.3rem;
 }
@@ -63,6 +65,7 @@
 }
 
 .footer-subitens-contain h2 {
+    margin-top: 15px;
     font-family: 'Cambria';
     padding: 0.8rem 0.4rem 0.4rem 0.4rem;
     font-size: 20px;
@@ -76,10 +79,20 @@
 
 .footer-subitens-contain p {
     padding-left: 5px;
+    width: 70%;
     font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif
 }
 
+.footer-subitens-contain ul {
+    padding-bottom: 30px;
+}
 
+.copy {
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
 
 
 
