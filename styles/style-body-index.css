@@ -6,4 +6,15 @@
 body {
     height: 70vh;
     background: rgb(54, 54, 54);
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
 }
