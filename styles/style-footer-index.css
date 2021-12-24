@@ -1,9 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+
 .footer-index {
     position: relative;
     background: #222222;
     top: 100%;
     width: 100%;
-    padding-bottom: 20px;
     transition: 0.4s;
     box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.4);
 }
@@ -11,21 +13,23 @@
 
 
 .footer-itens-contain {
-    width: 50%;
+    width: max-content;
     height: 6rem;
     padding: 6px;
     margin: auto;
 }
 
 .footer-itens-contain h1 {
+    width: max-content;
     color: white;
     cursor: default;
     display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 10px;
     padding-bottom: 6px;
     justify-content: center;
     font-size: 23px;
+    letter-spacing: 2px;
 }
 
 .footer-itens-contain ul {
@@ -89,10 +93,17 @@
     padding-bottom: 30px;
 }
 
+
+.copy-conteiner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
 .copy {
     color: white;
     width: 100%;
-    margin-top: 10px;
+    margin: auto;
     text-align: center;
 }
 
