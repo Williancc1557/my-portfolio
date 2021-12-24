@@ -98,11 +98,3 @@
 
 
 
-@media (max-width: 850px) {
-    .footer-subitens-contain p {
-        width: 100%;
-    }
-    .footer-subitens-contain ul {
-        padding-bottom: 20px;
-    }
-}
