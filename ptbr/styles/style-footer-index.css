@@ -9,7 +9,7 @@
 
 .footer-index {
     position: relative;
-    background: #222222;
+    background: rgb(25, 25, 26);
     top: 100%;
     width: 100%;
     transition: 0.4s;
@@ -66,16 +66,21 @@
 /* subitens contain */
 
 .footer-subitens-contain {
-    color: white;
-    height: 60%;
-    width: 100%;
-}
-.footer-subitens-contain {
+    display: flex;
     color: white;
     height: 60%;
     width: 100%;
 }
 
+
+.footer-subitens-contain {
+    color: white;
+    height: 60%;
+    width: 100%;
+}
+.footer-subitens-product {
+    width: 70%;
+}
 .footer-subitens-contain h2 {
     margin-top: 15px;
     font-family: 'Roboto-bold';
@@ -90,7 +95,7 @@
 }
 
 .footer-subitens-contain p {
-    padding-left: 4px;
+    padding-left: 5px;
     width: 70%;
     font-size: 1rem;
     font-family: 'Roboto'
@@ -117,3 +122,16 @@
 
 
 
+@media (max-width: 800px) {
+    .footer-subitens-contain {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        height: 60%;
+        width: 100%;
+    }
+
+    .footer-subitens-contain p {
+        width: auto;
+    }
+}

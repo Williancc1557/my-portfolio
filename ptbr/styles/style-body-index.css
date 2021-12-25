@@ -4,7 +4,6 @@
 }
 
 body {
-    background: rgb(54, 54, 54);
     overflow-x: hidden;
 }
 
@@ -19,5 +18,10 @@ a:hover {
 }
 
 main {
-    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(32, 32, 32);
+    color: white;
+    padding-bottom: 30px;
 }

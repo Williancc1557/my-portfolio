@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Roboto-italic';
+    src: url('../fonts/Roboto-Italic.ttf');
+}
+@font-face {
+    font-family: "roboto-key";
+    src: url('../fonts/Roboto-Black.ttf');
+}
+
+.roboto-key {
+    font-family: 'roboto-key';
+    letter-spacing: 2px;
+}
+
+/* -------------------------------------------- */
+
+
+
+
+
+
+/* section */
+
+main .profile-section {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-image-figure figcaption ul {
+    padding: 10px;
+    list-style-type: none;
+    font-family: 'Roboto-italic';
+}
+
+.profile-image-figure figcaption ul li {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.profile-image-figure {
+    padding-top: 1rem;
+    width: 28rem;
+    background: rgb(25, 25, 26);
+    border-radius: 10%;
+}
+
+main .profile-section .profile-image-figure img {
+    border-radius: 100%;
+    width: 26rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+/* About */
+
+.profile-section-about {
+    background: rgb(25, 25, 26);
+    border-radius: 3rem;
+    padding: 1rem;
+    width: 30%;
+}
+.title-about {
+    margin-top: 8%;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.profile-section-about h2 {
+    padding: 15px;
+}
+
+
+
+
+/* medias */
+
+
+@media (max-width: 1100px) {
+    main {
+        height: auto;
+    }
+    .profile-section {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .profile-image-figure {
+        width: 30rem;
+    }
+    main .profile-section .profile-image-figure div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .profile-section .profile-section-about {
+        width: 40rem;
+        padding-bottom: 3rem;
+        margin-top: 20px;
+    }
+}
+
+
