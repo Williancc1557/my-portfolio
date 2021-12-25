@@ -41,6 +41,7 @@ main .profile-section {
 .profile-image-figure {
     padding-top: 1rem;
     width: 28%;
+    height: 40%;
     background: rgb(25, 25, 26);
     border-radius: 3%;
 }
@@ -52,7 +53,13 @@ main .profile-section .profile-image-figure img {
     margin-right: 1rem;
 }
 
-
+main .profile-section .profile-image-figure div {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 
@@ -66,7 +73,7 @@ main .profile-section .profile-image-figure img {
     width: 30%;
 }
 .title-about {
-    margin-top: 8%;
+    margin: 5%;
     width: 100%;
     text-align: center;
     margin-left: auto;
@@ -79,12 +86,7 @@ main .profile-section .profile-image-figure img {
     padding: 15px;
 }
 
-main .profile-section .profile-image-figure div {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
 
 
 /* medias */
