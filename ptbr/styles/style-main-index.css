@@ -40,14 +40,14 @@ main .profile-section {
 
 .profile-image-figure {
     padding-top: 1rem;
-    width: 28rem;
+    width: 28%;
     background: rgb(25, 25, 26);
     border-radius: 10%;
 }
 
 main .profile-section .profile-image-figure img {
     border-radius: 100%;
-    width: 26rem;
+    width: 50%;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -94,7 +94,7 @@ main .profile-section .profile-image-figure img {
         align-items: center;
     }
     .profile-image-figure {
-        width: 30rem;
+        width: 40%;
     }
     main .profile-section .profile-image-figure div {
         width: 100%;
@@ -104,7 +104,7 @@ main .profile-section .profile-image-figure img {
     }
     
     .profile-section .profile-section-about {
-        width: 40rem;
+        width: 80%;
         padding-bottom: 3rem;
         margin-top: 20px;
     }
