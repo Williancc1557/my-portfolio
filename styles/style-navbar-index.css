@@ -1,16 +1,23 @@
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
 .logo {
-  font-weight: bolder;
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto-Bold';
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #1e1e1f;
   height: 7vh;
 }
@@ -19,6 +26,7 @@ nav {
 .nav-list {
   list-style: none;
   display: flex;
+  font-family: 'Roboto';
 }
 
 .nav-list li {
@@ -42,7 +50,7 @@ nav {
 @media (max-width: 999px) {
   .nav-list {
     position: absolute;
-    top: 8vh;
+    top: 7vh;
     right: 0;
     width: 50vw;
     height: 92vh;

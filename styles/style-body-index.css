@@ -4,7 +4,6 @@
 }
 
 body {
-    height: 70vh;
     background: rgb(54, 54, 54);
     overflow-x: hidden;
 }
@@ -20,5 +19,5 @@ a:hover {
 }
 
 main {
-    height: 92vh;
+    height: 70vh;
 }

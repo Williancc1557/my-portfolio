@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
 .footer-index {
     position: relative;
     background: #222222;
@@ -21,7 +30,7 @@
     color: white;
     cursor: default;
     display: flex;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-bold';
     padding-top: 10px;
     padding-bottom: 6px;
     justify-content: center;
@@ -69,7 +78,7 @@
 
 .footer-subitens-contain h2 {
     margin-top: 15px;
-    font-family: 'Cambria';
+    font-family: 'Roboto-bold';
     padding: 0.8rem 0.4rem 0.4rem 0.4rem;
     font-size: 20px;
 }
@@ -81,13 +90,15 @@
 }
 
 .footer-subitens-contain p {
-    padding-left: 5px;
+    padding-left: 4px;
     width: 70%;
-    font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif
+    font-size: 1rem;
+    font-family: 'Roboto'
 }
 
 .footer-subitens-contain ul {
     padding-bottom: 30px;
+    font-family: Roboto;
 }
 
 
