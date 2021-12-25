@@ -79,7 +79,12 @@ main .profile-section .profile-image-figure img {
     padding: 15px;
 }
 
-
+main .profile-section .profile-image-figure div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 /* medias */
@@ -94,13 +99,7 @@ main .profile-section .profile-image-figure img {
         align-items: center;
     }
     .profile-image-figure {
-        width: 40%;
-    }
-    main .profile-section .profile-image-figure div {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 60%;
     }
     
     .profile-section .profile-section-about {
