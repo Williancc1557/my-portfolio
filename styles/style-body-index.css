@@ -1,7 +1,11 @@
+
 * {
     margin: 0;
     padding: 0;
 }
+
+
+/* body index */
 
 body {
     overflow-x: hidden;
@@ -9,7 +13,7 @@ body {
 
 
 
-
+/* links config */
 a {
     color: white;
     text-decoration: none;
@@ -19,6 +23,8 @@ a {
 a:hover {
     opacity: 0.7;
 }
+
+/* main index config*/
 
 main {
     height: 75rem;
