@@ -138,6 +138,26 @@ main {
 
 /* flex box */
 @media (max-width: 999px) {
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: first baseline;
+        height: 100vh;
+        width: 100%;
+    }
+    .title-page {
+        width: 100%;
+        height: 30%;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .title-page h1 {
+        font-size: 45px;
+        width: unset;
+    }
+
+    
+    /* divs email / senha */
     .email, .senha {
         height: 7rem;
         padding: 0 10px 10px 10px;
@@ -147,28 +167,7 @@ main {
     .form-page p {
         margin-bottom: 10px;
     }
-
-    .content-container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: first baseline;
-
-    }
-    .title-page {
-        width: 100%;
-        height: 30%;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-    }
     
-    .title-page h1 {
-        font-size: 45px;
-        width: unset;
-    }
-    .content-container {
-        height: 100vh;
-        width: 100%;
-    }
     .form-page  h2 {
         font-size: 30px;
     }

@@ -119,12 +119,14 @@ main .profile-section .profile-image-figure div {
     font-size: 40px;
 }
 .metadata-list  {
+    margin-left: 30px;
     font-size: 20px;
     width: max-content;
 }
 
 .language-selector {
     height: 2rem;
+    outline: 0;
 }
 .metadata-submit-button {
     cursor: pointer;
@@ -141,6 +143,8 @@ main .profile-section .profile-image-figure div {
 .language-selector-conteiner {
     display: flex;
     align-items: center;
+    width: max-content;
+    margin-left: 30px;
 }
 
 /* medias */
@@ -150,10 +154,26 @@ main .profile-section .profile-image-figure div {
     main {
         height: auto;
     }
-    .profile-section {
-        flex-direction: column-reverse;
-        align-items: center;
+
+    .metadata h1 {
+        font-size: 30px;
     }
+    .metadata h2 {
+        font-size: 25px;
+    }
+    .language-selector {
+        height: 1.5rem;
+        outline: 0;
+    }
+    .metadata-submit-button {
+        cursor: pointer;
+        font-family: 'Roboto';
+        width: 5rem;
+        height: 1.5rem;
+        border-radius: 5px;
+    }
+
+
     .profile-image-figure {
         width: 60%;
     }
