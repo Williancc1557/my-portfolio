@@ -6,10 +6,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/style-footer-index.css">
-    <link rel="stylesheet" href="styles/style-body-index.css">
-    <link rel="stylesheet" href="styles/style-navbar-index.css">
-    <link rel="stylesheet" href="styles/style-main-index.css">
+    <link rel="stylesheet" href="../styles/style-footer-index.css">
+    <link rel="stylesheet" href="../styles/style-body-index.css">
+    <link rel="stylesheet" href="../styles/style-navbar-index.css">
+    <link rel="stylesheet" href="../styles/style-main-index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <script src="https://kit.fontawesome.com/c68fd5646c.js" crossorigin="anonymous"></script>
 </head>
@@ -26,8 +26,7 @@
             <li class='nav-list-iten'><a href="#">Início</a></li>
             <li class='nav-list-iten'><a href="#">Sobre</a></li>
             <li class='nav-list-iten'><a href="#">Projetos</a></li>
-            <li class='nav-list-iten'><a href="#">Contato</a></li>
-            <li class='nav-list-iten' id="icon-img"> <img src="images/usericon.png" alt="icon user" class="nav-user-icon">
+            <li class='nav-list-iten' id="icon-img"> <img src="../images/usericon.png" alt="icon user" class="nav-user-icon">
                 <ul class='user-icon-list'><li><a href="">Login</a></li></ul>
             </li>
             </ul>
@@ -59,7 +58,7 @@
             </div>
             <figure class="profile-image-figure">
                 <div>
-                    <img src="images/willian.jpg" alt="Foto Willian" title="Willian Cavalcanti Coelho" class="profile-img">
+                    <img src="../images/willian.jpg" alt="Foto Willian" title="Willian Cavalcanti Coelho" class="profile-img">
                 </div>
                 <figcaption><ul>
                     <li><span class="roboto-key">Nome:</span> Willian Cavalcanti Coelho</li>
@@ -71,7 +70,26 @@
                 </ul> </figcaption>
             </figure>
         </section>
-        <section></section>
+        <section class="metadata">
+            <div class="metadata-conteiner">
+                <h1>Encontrou um problema com esta página?</h1>
+                <ul class='metadata-list'>
+                    <li><a href="github.com/Williancc1557/my-portfolio/edit/master/ptbr/index.html">Editar no Github</a></li>
+                    <li><a href="https://github.com/Williancc1557/my-portfolio/blob/master/ptbr/index.html">Código no github</a></li>
+                    <li><a href="https://github.com/Williancc1557/my-portfolio/issues"> Comunicar um problema com este conteúdo no GitHub </a></li>
+                </ul>
+                <form class="language-selector-form" onsubmit="return false">
+                    <h2>Selecione seu idioma</h2>
+                    <div class='language-selector-conteiner'>
+                        <select class="language-selector">
+                        <option value="pt-BR">Português (do ;Brasil)</option>
+                        <option value="en-US">English (US)</option>
+                        </select>
+                        <button type="submit" class="metadata-submit-button" onclick="clickSubmit()">Selecionar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 
 
@@ -93,7 +111,7 @@
                 <p>  Meu nome é <strong> willian </strong>, desenvolvo softwares a mais de 2 anos.
                      Comecei utilizando python e suas lib's como: Pandas, Numpy, Flask.
                      Consumi muitas API's como a do discord e também construi várias API's utilizando Flask com python 
-                     e express com node, usando Javascript ou Typescript. </p>
+                     e express com node usando Javascript ou Typescript. </p>
             </div>
             <div class='footer-subitens-functions'>
                 <h2>Minhas funções</h2>
@@ -111,8 +129,9 @@
         </div>
         
     </footer>
-    <script src="scripts/mobile-navbar.js"></script>
-    <script src="scripts/sidebar.js"></script>
-    <script src="scripts/login-icon.js"></script>
+    <script src="../scripts/mobile-navbar.js"></script>
+    <script src="../scripts/sidebar.js"></script>
+    <script src="../scripts/login-icon.js"></script>
+    <script src="../scripts/change-language.js"></script>
 </body>
 </html>

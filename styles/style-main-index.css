@@ -7,6 +7,11 @@
     src: url('../fonts/Roboto-Black.ttf');
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
 .roboto-key {
     font-family: 'roboto-key';
     letter-spacing: 2px;
@@ -19,7 +24,7 @@
 
 
 
-/* section */
+/* section profile-section */
 
 main .profile-section {
     padding-top: 30px;
@@ -87,7 +92,56 @@ main .profile-section .profile-image-figure div {
 }
 
 
+/* section metadata */
+.metadata-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
 
+.metadata {
+    background: rgb(25, 25, 26);
+    width: 100%;
+    margin-top: 100px ;
+    padding: 3%;
+}
+.metadata a {
+    text-decoration: underline;
+}
+.metadata h1, h2 {
+    padding: 20px;
+}
+.metadata h1 {
+    font-size: 50px;
+}
+.metadata h2 {
+    font-size: 40px;
+}
+.metadata-list  {
+    font-size: 20px;
+    width: max-content;
+}
+
+.language-selector {
+    height: 2rem;
+}
+.metadata-submit-button {
+    cursor: pointer;
+    font-family: 'Roboto';
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.metadata-submit-button:hover {
+    opacity: 0.8;
+}
+
+.language-selector-conteiner {
+    display: flex;
+    align-items: center;
+}
 
 /* medias */
 
