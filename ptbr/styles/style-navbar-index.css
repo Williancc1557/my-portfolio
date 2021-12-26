@@ -22,14 +22,38 @@ nav {
   height: 7vh;
 }
 
+.nav-user-icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.user-icon-list {
+  display: none;
+  list-style-type: none;
+  align-items: center;
+  background-color: rgb(25, 25, 26);
+  width: max-content;
+  padding: 1%;
+  color: white;
+  position: absolute;
+}
+
+.user-icon-list li {
+  margin: 0px auto 0px auto
+}
+
 
 .nav-list {
+  width: 40%;
   list-style: none;
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Roboto';
 }
 
-.nav-list li {
+.nav-list .nav-list-iten {
   letter-spacing: 3px;
   margin-left: 32px;
 }
@@ -48,6 +72,9 @@ nav {
 }
 
 @media (max-width: 999px) {
+  .user-icon-list li {
+    display: none;
+  }
   .nav-list {
     display: none;
     position: absolute;
