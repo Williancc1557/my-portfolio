@@ -30,7 +30,7 @@
     color: white;
     cursor: default;
     display: flex;
-    font-family: 'Roboto-bold';
+    font-family: 'Roboto-bold', sans-serif;
     padding-top: 10px;
     padding-bottom: 6px;
     justify-content: center;
@@ -42,7 +42,7 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
-    margin: auto;
+    gap: 10px;
     height: 50px;
 }
 
@@ -84,7 +84,7 @@
 }
 .footer-subitens-contain h2 {
     margin-top: 15px;
-    font-family: 'Roboto-bold';
+    font-family: 'Roboto-bold', sans-serif;
     padding: 0.8rem 0.4rem 0.4rem 10px;
     font-size: 20px;
 }
