@@ -22,10 +22,7 @@
 
 
 
-
-
 /* section profile-section */
-
 main .profile-section {
     padding-top: 30px;
     display: flex;
@@ -59,12 +56,12 @@ main .profile-section .profile-image-figure img {
 }
 
 main .profile-section .profile-image-figure div {
-        width: 100%;
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
